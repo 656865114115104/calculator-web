@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link  rel="stylesheet" href="./styles.css" >
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <input id="display" readonly>
+        <div id="keys">
+            <button  onclick= "appendToDisplay('+')" class="operator-btn plus appdisp">
+                +
+
+
+            </button>
+            <button onclick= "appendToDisplay('7')" class="seven number appdisp">
+              7
+            </button>
+            <button onclick= "appendToDisplay('8')" class="eight number appdisp">
+                8
+
+            </button>
+            <button onclick= "appendToDisplay('9')" class="nine number appdisp">
+                9
+
+            </button>
+            <button onclick= "appendToDisplay('-')" class="operator-btn appdisp">
+                -
+
+            </button>
+            <button onclick= "appendToDisplay('4')" class="four number appdisp">
+                4
+
+            </button>
+            <button onclick= "appendToDisplay('5')" class="five number appdisp">
+                5
+
+            </button>
+            <button onclick= "appendToDisplay('6')" class="six number appdisp">
+                6
+
+            </button>
+            <button onclick= "appendToDisplay('*')" class="operator-btn appdisp">
+                ×
+
+            </button>
+            <button onclick= "appendToDisplay('1')" class="one number appdisp">
+                1
+
+            </button>
+            <button onclick= "appendToDisplay('2')" class="two number appdisp">
+                2
+
+            </button>
+            <button onclick= "appendToDisplay('3')" class="three number appdisp">
+                3
+
+            </button>
+            <button onclick= "appendToDisplay('/')" class="operator-btn appdisp">
+                ÷
+
+
+            </button>
+            <button onclick= "appendToDisplay('0')" class="zero number appdisp">
+                0
+            </button>
+            <button onclick= "appendToDisplay('.')">
+                .
+            </button>
+            <button onclick= "calculate()" class="appdisp">
+                =
+            </button>
+            <button onclick= "clearDisplay()"class="clear operator-btn">AC</button>
+            <button class="random delete">Delete</button>
+
+        </div>
+
+    </div>
+    <script src="./index.js" charset="UTF-8"></script>
+</body>
+</html>
